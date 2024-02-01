@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">API test</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="sec">Just a sec...</string>
+    <string name="working">Working on it</string>
+    <string name="password_mismatch">password do not match</string>
+    <string name="email_not_valid">Email not valid</string>
+    <string name="check_fields">Please check the fields and type again</string>
+    <string name ="log_in_pro">Email Please check the fields</string>
+    <string name="wrong_emailorpass">Email address or password is incorrect</string>
+
+
+</resources>

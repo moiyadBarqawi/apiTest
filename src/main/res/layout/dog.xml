@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".DogAcrivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        android:text="Here is a cute dog"
+        android:textColor="#000"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="360dp"
+        android:layout_height="377dp"
+        android:layout_marginStart="24dp"
+
+        tools:layout_editor_absoluteY="98dp"
+        tools:srcCompat="@tools:sample/avatars" />
+    <Button
+        android:id="@+id/dog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:text="Random_dog "
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/back_dog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        android:padding="20dp"
+        android:text="Back "
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
